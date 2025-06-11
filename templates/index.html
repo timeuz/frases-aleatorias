@@ -67,9 +67,13 @@
 
         .buttons-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
             gap: 20px;
             margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .phrase-button {
@@ -86,6 +90,12 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            min-height: 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
         }
 
         .phrase-button::before {
@@ -231,11 +241,14 @@
             
             .buttons-grid {
                 grid-template-columns: 1fr;
+                grid-template-rows: repeat(4, 1fr);
+                max-width: 300px;
             }
             
             .phrase-button {
                 padding: 18px;
                 font-size: 0.9rem;
+                min-height: 70px;
             }
             
             .phrase-text {
@@ -244,8 +257,9 @@
         }
 
         .button-icon {
-            margin-right: 8px;
-            font-size: 1.2rem;
+            margin-bottom: 5px;
+            font-size: 1.5rem;
+            display: block;
         }
 
         .stats {
@@ -272,17 +286,17 @@
                 Não's Criativos
             </button>
             
-            <button class="phrase-button btn-science" onclick="getFrase('science_facts')">
+            <button class="phrase-button btn-science" onclick="getFrase('curiosidades')">
                 <span class="button-icon">🔬</span>
                 Ciência & Fatos
             </button>
             
-            <button class="phrase-button btn-geek" onclick="getFrase('geek_quotes')">
+            <button class="phrase-button btn-geek" onclick="getFrase('frases_geek')">
                 <span class="button-icon">🎮</span>
                 Citações Geek
             </button>
             
-            <button class="phrase-button btn-insults" onclick="getFrase('subtle_insults')">
+            <button class="phrase-button btn-insults" onclick="getFrase('insultis')">
                 <span class="button-icon">😏</span>
                 Insultos Sutis
             </button>
@@ -301,18 +315,14 @@
 
     <script>
         let phraseCounter = 0;
-        const API_BASE = window.location.origin; // Usa a mesma origem da página
+        const API_BASE = window.location.origin;
         
         async function getFrase(tipo) {
             const display = document.getElementById('phraseDisplay');
             const phraseText = display.querySelector('.phrase-text');
             const counter = document.getElementById('counter');
-            
-            // Mostra loading
             phraseText.innerHTML = '<span class="loading">Carregando frase</span>';
             display.classList.add('show');
-            
-            // Desabilita todos os botões temporariamente
             const buttons = document.querySelectorAll('.phrase-button');
             buttons.forEach(btn => btn.style.pointerEvents = 'none');
             
@@ -325,14 +335,12 @@
                 }
                 
                 const frase = await response.text();
-                
-                // Pequeno delay para efeito visual
+            
                 setTimeout(() => {
                     phraseText.innerHTML = frase;
                     phraseCounter++;
                     counter.textContent = phraseCounter;
                     
-                    // Reabilita os botões
                     buttons.forEach(btn => btn.style.pointerEvents = 'auto');
                 }, 500);
                 
@@ -340,12 +348,10 @@
                 console.error('Erro ao buscar frase:', error);
                 phraseText.innerHTML = `<span class="error">Ops! Não foi possível carregar a frase. Tente novamente em alguns segundos. 😅</span>`;
                 
-                // Reabilita os botões após erro
                 buttons.forEach(btn => btn.style.pointerEvents = 'auto');
             }
         }
         
-        // Efeito de partículas no fundo (opcional)
         function createParticle() {
             const particle = document.createElement('div');
             particle.style.cssText = `
@@ -368,10 +374,8 @@
             }, 7000);
         }
         
-        // Adiciona partículas ocasionalmente
         setInterval(createParticle, 2000);
         
-        // Animação das partículas
         const style = document.createElement('style');
         style.textContent = `
             @keyframes float {

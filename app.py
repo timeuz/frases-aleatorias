@@ -20,16 +20,16 @@ limiter = Limiter(
 
 all_phrases_data = {
     'naos': [],
-    'science_facts': [],
-    'geek_quotes': [],
-    'subtle_insults': []
+    'curiosidades': [],
+    'frases_geek': [],
+    'insultis': []
 }
 
 load_errors = {
     'naos': None,
-    'science_facts': None,
-    'geek_quotes': None,
-    'subtle_insults': None
+    'curiosidades': None,
+    'frases_geek': None,
+    'insultis': None
 }
 
 def load_json_file(file_path, category_name):
@@ -48,9 +48,9 @@ def load_json_file(file_path, category_name):
         all_phrases_data[category_name] = []
 
 load_json_file("data/naos.json", "naos")
-load_json_file("data/curiosidades.json", "science_facts")
-load_json_file("data/frases_geek.json", "geek_quotes")
-load_json_file("data/insultis.json", "subtle_insults")
+load_json_file("data/curiosidades.json", "curiosidades")
+load_json_file("data/frases_geek.json", "frases_geek")
+load_json_file("data/insultis.json", "insultis")
 
 @app.route('/')
 def index():
