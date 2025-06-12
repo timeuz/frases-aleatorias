@@ -269,6 +269,6 @@ Foi reescrito completamente em Python, com frases traduzidas para o português e
 
 **⭐ Se você gostou do projeto, deixe uma estrela! ⭐**
 
-*Feito com ❤️ e muito ☕*
+*Feito com 🤘 e muito ☕*
 
 </div>
