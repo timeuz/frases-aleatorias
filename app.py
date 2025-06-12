@@ -22,14 +22,16 @@ all_phrases_data = {
     'naos': [],
     'curiosidades': [],
     'frases_geek': [],
-    'insultis': []
+    'insultis': [],
+    'desmotivacionais': []
 }
 
 load_errors = {
     'naos': None,
     'curiosidades': None,
     'frases_geek': None,
-    'insultis': None
+    'insultis': None,
+    'desmotivacionais': None
 }
 
 def load_json_file(file_path, category_name):
@@ -51,6 +53,8 @@ load_json_file("data/naos.json", "naos")
 load_json_file("data/curiosidades.json", "curiosidades")
 load_json_file("data/frases_geek.json", "frases_geek")
 load_json_file("data/insultis.json", "insultis")
+load_json_file("data/desmotivacionais.json", "desmotivacionais")
+load_json_file("data/bomdia.json", "bomdia")
 
 @app.route('/')
 def index():
@@ -74,7 +78,7 @@ def naos():
 
 @app.route('/curiosidades')
 @limiter.limit("5 per second;10 per minute")
-def science_facts():
+def curiosidades():
     error_message = load_errors['curiosidades']
     if error_message:
         return error_message, 500
@@ -90,7 +94,7 @@ def science_facts():
 
 @app.route('/frases_geek')
 @limiter.limit("5 per second;10 per minute")
-def geek_quotes():
+def frases_geek():
     error_message = load_errors['frases_geek']
     if error_message:
         return error_message, 500
@@ -106,7 +110,7 @@ def geek_quotes():
 
 @app.route('/insultis')
 @limiter.limit("5 per second;10 per minute")
-def subtle_insults():
+def insultis():
     error_message = load_errors['insultis']
     if error_message:
         return error_message, 500
@@ -119,6 +123,38 @@ def subtle_insults():
     aleat = randrange(total_frases)
     aleat_frase = frases_list[aleat]
     return aleat_frase["insult"]
+
+@app.route('/desmotivacionais')
+@limiter.limit("5 per second;10 per minute")
+def desmotivacionais():
+    error_message = load_errors['desmotivacionais']
+    if error_message:
+        return error_message, 500
+
+    frases_list = all_phrases_data['desmotivacionais']
+    if not frases_list:
+        return "Nenhuma frase 'desmotivacional' disponível.", 500
+
+    total_frases = len(frases_list)
+    aleat = randrange(total_frases)
+    aleat_frase = frases_list[aleat]
+    return aleat_frase
+
+@app.route('/bomdia')
+@limiter.limit("5 per second;10 per minute")
+def bomdia():
+    error_message = load_errors['bomdia']
+    if error_message:
+        return error_message, 500
+
+    frases_list = all_phrases_data['bomdia']
+    if not frases_list:
+        return "Nenhuma frase de 'bom dia' disponível.", 500
+
+    total_frases = len(frases_list)
+    aleat = randrange(total_frases)
+    aleat_frase = frases_list[aleat]
+    return aleat_frase
 
 @app.errorhandler(429)
 def ratelimit_handler(e):
