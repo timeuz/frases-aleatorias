@@ -24,9 +24,11 @@ O **Gerador de Frases Aleatórias** é uma aplicação web que combina uma API F
 | Categoria | Endpoint | Descrição | Exemplo |
 |-----------|----------|-----------|---------|
 | 🚫 **Não's Criativos** | `/naos` | Formas elegantes e divertidas de dizer "não" | *"Meu comitê de paz interior vetou essa ideia por unanimidade."* |
-| 🔬 **Ciência & Fatos** | `/science_facts` | Curiosidades científicas e fatos históricos | *"Um raio é cinco vezes mais quente que a superfície do sol."* |
-| 🎮 **Citações Geek** | `/geek_quotes` | Frases icônicas de filmes, séries e jogos | *"Que a Força esteja com você." - Obi-Wan Kenobi (Star Wars)* |
-| 😏 **Insultos Sutis** | `/subtle_insults` | Críticas elegantes e sarcasmo refinado | *"Admiro a sua coragem em ser tão... autêntico."* |
+| 🔬 **Ciência & Fatos** | `/curiosidades` | Curiosidades científicas e fatos históricos | *"Um raio é cinco vezes mais quente que a superfície do sol."* |
+| 🎮 **Citações Geek** | `/frases_geek` | Frases icônicas de filmes, séries e jogos | *"Que a Força esteja com você." - Obi-Wan Kenobi (Star Wars)* |
+| 😏 **Insultos Sutis** | `/insultis` | Críticas elegantes e sarcasmo refinado | *"Admiro a sua coragem em ser tão... autêntico."* |
+| 😔 **(des)Motivacionais** | `/desmotivacionais` | Frases para quando você precisa de um pouco de realidade | *"Dê o seu melhor — e descubra que nem isso adianta."* |
+| 🌞 **Bom dia pra quem?** | `/bomdia` | Frases para começar o dia bem... ou não | *"Bom dia para você que acordou pronto para nada."* |
 
 ---
 
@@ -44,6 +46,8 @@ curl http://localhost:5000/naos
 curl http://localhost:5000/curiosidades
 curl http://localhost:5000/frases_geek
 curl http://localhost:5000/insultis
+curl http://localhost:5000/desmotivacionais
+curl http://localhost:5000/bomdia
 ```
 
 ---
@@ -84,11 +88,23 @@ curl http://localhost:5000/insultis
    ├── app.py
    ├── templates/
    │   └── index.html
+   ├── static/
+   │   └── css
+   |   |   └── styles.css
+   │   └── images
+   |   |   └── apple-touch-icon.png
+   |   |   └── favicon-16x16.png
+   |   |   └── favicon-32x32.png
+   |   |   └── og-image.png
+   │   └── js
+   |       └── app.js
    └── data/
        ├── naos.json
        ├── curiosidades.json
        ├── frases_geek.json
        └── insultis.json
+       └── desmotivacionais.json
+       └── bomdia.json
    ```
 
 5. **Execute a aplicação**
@@ -121,11 +137,7 @@ O frontend foi desenvolvido com foco na experiência do usuário, oferecendo:
 - ✅ **Efeitos Hover**: Interações visuais nos botões
 
 ### **🎯 Botões Temáticos**
-Cada categoria possui sua própria identidade visual:
-- 🚫 **Vermelho** para Não's Criativos
-- 🔬 **Verde Água** para Ciência & Fatos  
-- 🎮 **Verde Claro** para Citações Geek
-- 😏 **Amarelo/Laranja** para Insultos Sutis
+Cada categoria possui sua própria identidade visual
 
 ---
 
@@ -141,9 +153,11 @@ Todos os endpoints possuem limitação de requisições para evitar abuso:
 | Endpoint | Método | Resposta | Tipo |
 |----------|--------|----------|------|
 | `/naos` | GET | Frase de recusa criativa | `text/plain` |
-| `/science_facts` | GET | Curiosidade científica | `text/plain` |
-| `/geek_quotes` | GET | Citação formatada com autor e fonte | `text/plain` |
-| `/subtle_insults` | GET | Insulto sutil ou sarcástico | `text/plain` |
+| `/curiosidades` | GET | Curiosidade científica | `text/plain` |
+| `/frases_geek` | GET | Citação formatada com autor e fonte | `text/plain` |
+| `/insultis` | GET | Insulto sutil ou sarcástico | `text/plain` |
+| `/desmotivacionais` | GET | Motivadas ao fracasso | `text/plain` |
+| `/bomdia` | GET | Para quem não acorda feliz | `text/plain` |
 
 ### **Códigos de Status**
 - `200`: Sucesso
@@ -171,35 +185,13 @@ Todos os endpoints possuem limitação de requisições para evitar abuso:
 
 ---
 
-## 📂 **Estrutura do Projeto**
-
-```
-gerador-frases-aleatorias/
-│
-├── 📄 app.py                 # Aplicação Flask principal
-├── 📄 README.md             # Este arquivo
-│
-├── 📁 templates/            # Templates HTML
-│   └── 📄 index.html        # Frontend da aplicação
-│
-├── 📁 data/                 # Arquivos de dados JSON
-│   ├── 📄 naos.json         # Frases de recusa criativa
-│   ├── 📄 curiosidades.json # Fatos científicos
-│   ├── 📄 frases_geek.json  # Citações geek
-│   └── 📄 insultis.json     # Insultos sutis
-│
-└── 📁 venv/                 # Ambiente virtual (após criação)
-```
-
----
-
 ## 🔧 **Personalização**
 
 ### **Adicionar Novas Frases**
 1. Edite os arquivos JSON em `/data/`
 2. Mantenha a estrutura existente:
    ```json
-   // Para naos.json
+   // Para naos.json, desmotivacionais.json e bomdia.json
    ["Sua nova frase aqui"]
    
    // Para science_facts.json
@@ -225,8 +217,8 @@ limiter = Limiter(
 ```
 
 ### **Personalizar Visual**
-O CSS está incorporado no HTML para facilitar modificações. Principais variáveis para customizar:
-- **Cores dos botões**: Classes `.btn-naos`, `.btn-science`, etc.
+O CSS está separado no diretório `static/css` para facilitar modificações. Principais variáveis para customizar:
+- **Cores dos botões**: Classes `.btn-naos`, `.btn-curiosidades`, etc.
 - **Animações de fundo**: Keyframe `@backgroundShift`
 - **Efeitos**: Propriedades `backdrop-filter`, `box-shadow`
 
