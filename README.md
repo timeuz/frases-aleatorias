@@ -117,6 +117,28 @@ curl http://localhost:5000/bomdia
    http://localhost:5000
    ```
 
+### **Docker/Podman**
+
+Para rodar a aplicação usando Docker/Podman:
+(substitua a palavra "docker" por "podman" nos comandos abaixo)
+
+1. **Construa a imagem Docker:**
+   ```bash
+   docker build -t frases-aleatorias -f Containerfile .
+   ```
+
+2. **Execute o container:**
+   ```bash
+   docker run -d -p 5000:5000 --name frases-api frases-aleatorias
+   ```
+
+3. **Acesse a aplicação:**
+   ```
+   http://localhost:5000
+   ```
+
+> Certifique-se de que o arquivo `requirements.txt` e todos os arquivos necessários estejam no diretório do projeto antes de construir a imagem.
+
 ---
 
 ## 🎨 **Frontend**
