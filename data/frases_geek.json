@@ -1,711 +1,123 @@
 [
-    {
-      "quote": "Que a Força esteja com você.",
-      "source": "Star Wars",
-      "character": "Obi-Wan Kenobi / Generalmente usado"
-    },
-    {
-      "quote": "Eu sou seu pai.",
-      "source": "Star Wars: Episódio V - O Império Contra-Ataca",
-      "character": "Darth Vader"
-    },
-    {
-      "quote": "Inverno está chegando.",
-      "source": "Game of Thrones",
-      "character": "Casa Stark"
-    },
-    {
-      "quote": "Você não sabe de nada, Jon Snow.",
-      "source": "Game of Thrones",
-      "character": "Ygritte"
-    },
-    {
-      "quote": "Com grandes poderes vêm grandes responsabilidades.",
-      "source": "Homem-Aranha (Spider-Man)",
-      "character": "Tio Ben"
-    },
-    {
-      "quote": "Eu sou o Batman.",
-      "source": "Batman",
-      "character": "Batman"
-    },
-    {
-      "quote": "Até o infinito e além!",
-      "source": "Toy Story",
-      "character": "Buzz Lightyear"
-    },
-    {
-      "quote": "Vivemos em uma sociedade.",
-      "source": "Coringa (Joker)",
-      "character": "Arthur Fleck (Coringa)"
-    },
-    {
-      "quote": "Não é a capa que faz o herói.",
-      "source": "O Incrível Hulk",
-      "character": "Hulk"
-    },
-    {
-      "quote": "Elemental, meu caro Watson.",
-      "source": "Sherlock Holmes",
-      "character": "Sherlock Holmes"
-    },
-    {
-      "quote": "A vida é como uma caixa de bombons... você nunca sabe o que vai encontrar.",
-      "source": "Forrest Gump: O Contador de Histórias",
-      "character": "Forrest Gump"
-    },
-    {
-      "quote": "O que fazemos em vida, ecoa na eternidade.",
-      "source": "Gladiador",
-      "character": "Maximus Decimus Meridius"
-    },
-    {
-      "quote": "A única coisa que se interpondo entre você e seu sonho é a história de merda que você continua contando a si mesmo que você não pode realizá-lo.",
-      "source": "O Lobo de Wall Street",
-      "character": "Jordan Belfort"
-    },
-    {
-      "quote": "Sempre.",
-      "source": "Harry Potter e as Relíquias da Morte - Parte 2",
-      "character": "Severus Snape"
-    },
-    {
-      "quote": "Get over here!",
-      "source": "Mortal Kombat (jogo)",
-      "character": "Scorpion"
-    },
-    {
-      "quote": "It's dangerous to go alone! Take this.",
-      "source": "The Legend of Zelda (jogo)",
-      "character": "Old Man"
-    },
-    {
-      "quote": "War. War never changes.",
-      "source": "Fallout (jogo)",
-      "character": "Narrador"
-    },
-    {
-      "quote": "É perigoso ir sozinho! Leve isto.", 
-      "source": "The Legend of Zelda",
-      "character": "Velho Sábio",
-      "note": "🔹 Tradução oficial do jogo (NES)"
-    },
-    {
-      "quote": "Guerra... A guerra nunca muda.",
-      "source": "Fallout",
-      "character": "Narrador",
-      "note": "🔹 Dublagem PT-BR (Fallout 4)"
-    },
-    {
-      "quote": "Get over here!",
-      "source": "Mortal Kombat",
-      "character": "Scorpion",
-      "note": "Sem dublagem PT-BR oficial"
-    },
-    {
-      "quote": "Você acorda finalmente.",
-      "source": "The Elder Scrolls V: Skyrim",
-      "character": "Ralof",
-      "note": "🔹 Legendas PT-BR (versão oficial)"
-    },
-    {
-      "quote": "Ouça! Ei, ouça!",
-      "source": "The Legend of Zelda: Ocarina of Time",
-      "character": "Navi",
-      "note": "🔹 Tradução PT-BR (N64)"
-    },
-    {
-      "quote": "Eu era um aventureiro como você, até levar uma flechada no joelho.",
-      "source": "The Elder Scrolls V: Skyrim",
-      "character": "Guarda de Skyrim",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "O vento está uivando.",
-      "source": "The Witcher 3: Wild Hunt",
-      "character": "Geralt de Rívia",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Você se esquece de mil coisas todo dia. Quer garantir que isso seja uma delas?",
-      "source": "Grand Theft Auto V",
-      "character": "Michael De Santa",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Preciso de uma arma.",
-      "source": "Halo 2",
-      "character": "Master Chief",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "O bolo é uma mentira.",
-      "source": "Portal",
-      "character": "GLaDOS",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Acorde, Samurai. Temos uma cidade para queimar.",
-      "source": "Cyberpunk 2077",
-      "character": "Johnny Silverhand",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Você morreu.",
-      "source": "Dark Souls",
-      "character": "Narrador",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Louvado seja o Sol!",
-      "source": "Dark Souls",
-      "character": "Solaire de Astora",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Would you kindly?",
-      "source": "BioShock",
-      "character": "Andrew Ryan",
-      "note": "Sem dublagem PT-BR"
-    },
-    {
-      "quote": "Demacia!",
-      "source": "League of Legends",
-      "character": "Garen",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Winter is coming.", 
-      "source": "Game of Thrones",
-      "character": "Casa Stark",
-      "note": "🔹 Legendas PT-BR: 'O inverno está chegando'"
-    },
-    {
-      "quote": "Você não sabe de nada, Jon Snow.",
-      "source": "Game of Thrones",
-      "character": "Ygritte",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Nem todos os homens foram feitos para se ajoelhar.",
-      "source": "Game of Thrones",
-      "character": "Daenerys Targaryen",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Hold the door!",
-      "source": "Game of Thrones",
-      "character": "Hodor",
-      "note": "🔹 Legendas PT-BR: 'Segura a porta!'"
-    },
-    {
-      "quote": "Dracarys.",
-      "source": "Game of Thrones",
-      "character": "Daenerys Targaryen",
-      "note": "🔹 Mantido no original (sem tradução oficial)"
-    },
-    {
-      "quote": "Eu sou aquele que bate na porta.",
-      "source": "Breaking Bad",
-      "character": "Walter White",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Say my name.",
-      "source": "Breaking Bad",
-      "character": "Walter White",
-      "note": "🔹 Dublagem PT-BR: 'Diga meu nome.'"
-    },
-    {
-      "quote": "I am the danger!",
-      "source": "Breaking Bad",
-      "character": "Walter White",
-      "note": "🔹 Dublagem PT-BR: 'Eu sou o perigo!'"
-    },
-    {
-      "quote": "Feliz aniversário, filho da puta.",
-      "source": "Stranger Things",
-      "character": "Jim Hopper",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Amigos não mentem.",
-      "source": "Stranger Things",
-      "character": "Eleven",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Isso é uma canção de amor?",
-      "source": "The Walking Dead",
-      "character": "Daryl Dixon",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Não olhe para os zumbis, Carl!",
-      "source": "The Walking Dead",
-      "character": "Rick Grimes",
-      "note": "🔹 Dublagem PT-BR (meme)"
-    },
-    {
-      "quote": "How you doin'?",
-      "source": "Friends",
-      "character": "Joey Tribbiani",
-      "note": "🔹 Dublagem PT-BR: 'Como você está?'"
-    },
-    {
-      "quote": "Nós estávamos em uma pausa!",
-      "source": "Friends",
-      "character": "Ross Geller",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Bazinga!",
-      "source": "The Big Bang Theory",
-      "character": "Sheldon Cooper",
-      "note": "🔹 Mantido no original (sem tradução)"
-    },
-    {
-      "quote": "A vingança nunca é plena, mata a alma e a envenena.",
-      "source": "Chaves",
-      "character": "Seu Madruga",
-      "note": "🔹 Original em PT-BR"
-    },
-    {
-      "quote": "Foi sem querer querendo.",
-      "source": "Chaves",
-      "character": "Chaves",
-      "note": "🔹 Original em PT-BR"
-    },
-    {
-      "quote": "Tá certo, tá certo, tá certo...",
-      "source": "Chaves",
-      "character": "Bruxa do 71",
-      "note": "🔹 Original em PT-BR"
-    },
-    {
-      "quote": "Pode crer!",
-      "source": "Todo Mundo Odeia o Chris",
-      "character": "Chris Rock",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Eu sou a Lenda Viva.",
-      "source": "The Office (US)",
-      "character": "Dwight Schrute",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "That's what she said!",
-      "source": "The Office (US)",
-      "character": "Michael Scott",
-      "note": "🔹 Legendas PT-BR: 'Foi o que ela disse!'"
-    },
-    {
-      "quote": "Eu sou inevitável.",
-      "source": "Loki (série)",
-      "character": "Loki",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Glorioso propósito.",
-      "source": "Loki (série)",
-      "character": "Loki",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Wubba lubba dub dub!",
-      "source": "Rick and Morty",
-      "character": "Rick Sanchez",
-      "note": "🔹 Mantido no original"
-    },
-    {
-      "quote": "Corre, Forrest! Corre!",
-      "source": "Forrest Gump",
-      "character": "Jenny Curran",
-      "note": "🔹 Dublagem PT-BR (clássico)"
-    },
-    {
-      "quote": "A vida é como uma caixa de chocolates...",
-      "source": "Forrest Gump",
-      "character": "Forrest Gump",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Elementar, meu caro Watson.",
-      "source": "Sherlock Holmes",
-      "character": "Sherlock Holmes",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Você falhou com esta cidade.",
-      "source": "Arrow",
-      "character": "Oliver Queen",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Eu sou o demônio que vem para coletar.",
-      "source": "Supernatural",
-      "character": "Crowley",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Carry on, my wayward son.",
-      "source": "Supernatural",
-      "character": "Sam e Dean Winchester",
-      "note": "🔹 Mantido no original (música-tema)"
-    },
-    {
-      "quote": "Que a Força esteja com você.",
-      "source": "Star Wars",
-      "character": "Obi-Wan Kenobi",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Eu sou seu pai.",
-      "source": "Star Wars: O Império Contra-Ataca",
-      "character": "Darth Vader",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Elementar, meu caro Watson.",
-      "source": "Sherlock Holmes",
-      "character": "Sherlock Holmes",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "A vida é como uma caixa de chocolates...",
-      "source": "Forrest Gump",
-      "character": "Forrest Gump",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Corre, Forrest! Corre!",
-      "source": "Forrest Gump",
-      "character": "Jenny Curran",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Meu precioso.",
-      "source": "O Senhor dos Anéis",
-      "character": "Gollum",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Um anel para governar a todos.",
-      "source": "O Senhor dos Anéis",
-      "character": "Sauron (voz)",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Você não pode passar!",
-      "source": "O Senhor dos Anéis",
-      "character": "Gandalf",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Eu vou te fazer uma oferta que você não poderá recusar.",
-      "source": "O Poderoso Chefão",
-      "character": "Don Corleone",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Keep your friends close, but your enemies closer.",
-      "source": "O Poderoso Chefão II",
-      "character": "Michael Corleone",
-      "note": "🔹 Legendas PT-BR: 'Mantenha seus amigos por perto, e seus inimigos mais perto ainda.'"
-    },
-    {
-      "quote": "Aqui estou eu, de volta ao começo.",
-      "source": "Matrix",
-      "character": "Neo",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Há uma diferença entre saber o caminho e percorrer o caminho.",
-      "source": "Matrix",
-      "character": "Morpheus",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Por que você veio? - Porque você me chamou.",
-      "source": "Ghost - Do Outro Lado da Vida",
-      "character": "Sam e Molly",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Mostrem-me o dinheiro!",
-      "source": "Jerry Maguire",
-      "character": "Rod Tidwell",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Você me completa.",
-      "source": "Jerry Maguire",
-      "character": "Jerry Maguire",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Eu veio mortos-vivos.",
-      "source": "Pulp Fiction",
-      "character": "Jules Winnfield",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Diga 'what' mais uma vez!",
-      "source": "Pulp Fiction",
-      "character": "Jules Winnfield",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Eu sou o Rei do Mundo!",
-      "source": "Titanic",
-      "character": "Jack Dawson",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Nunca me solte.",
-      "source": "Titanic",
-      "character": "Rose",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Houston, temos um problema.",
-      "source": "Apollo 13",
-      "character": "Jim Lovell",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Você está falando comigo?",
-      "source": "Taxi Driver",
-      "character": "Travis Bickle",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Toto, acho que não estamos mais no Kansas.",
-      "source": "O Mágico de Oz",
-      "character": "Dorothy",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "E.T. telefonar casa.",
-      "source": "E.T. - O Extraterrestre",
-      "character": "E.T.",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Just keep swimming.",
-      "source": "Procurando Nemo",
-      "character": "Dory",
-      "note": "🔹 Legendas PT-BR: 'Continue nadando.'"
-    },
-    {
-      "quote": "To infinity and beyond!",
-      "source": "Toy Story",
-      "character": "Buzz Lightyear",
-      "note": "🔹 Dublagem PT-BR: 'Ao infinito e além!'"
-    },
-    {
-      "quote": "Nunca subestime o coração de um campeão.",
-      "source": "Rudy",
-      "character": "Rudy Ruettiger",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Carpe diem. Aproveitem o dia.",
-      "source": "Sociedade dos Poetas Mortos",
-      "character": "John Keating",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Hakuna Matata!",
-      "source": "O Rei Leão",
-      "character": "Timão e Pumba",
-      "note": "🔹 Mantido no original (dublagem PT-BR)"
-    },
-    {
-      "quote": "Lembre-se: quem você é.",
-      "source": "O Rei Leão",
-      "character": "Mufasa",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Você é um feiticeiro, Harry.",
-      "source": "Harry Potter e a Pedra Filosofal",
-      "character": "Rúbeo Hagrid",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Eu vou ser o Rei dos Piratas!",
-      "source": "One Piece",
-      "character": "Monkey D. Luffy",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Se você não compartilhar a felicidade de alguém, nunca entenderá a verdadeira tristeza.",
-      "source": "Naruto Shippuden",
-      "character": "Itachi Uchiha",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Tatakae! Tatakae!",
-      "source": "Attack on Titan",
-      "character": "Eren Yeager",
-      "note": "🔹 Legendas PT-BR: 'Lute! Lute!'"
-    },
-    {
-      "quote": "O poder do amigo imaginário é infinito!",
-      "source": "Dragon Ball Z",
-      "character": "Goku",
-      "note": "🔹 Dublagem PT-BR (referência a Super Saiyajin)"
-    },
-    {
-      "quote": "Kamehameha!",
-      "source": "Dragon Ball Z",
-      "character": "Goku",
-      "note": "🔹 Mantido no original (dublagem PT-BR)"
-    },
-    {
-      "quote": "Você é bem fraquinho, hein?",
-      "source": "Dragon Ball Super",
-      "character": "Beerus",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Bankai!",
-      "source": "Bleach",
-      "character": "Ichigo Kurosaki",
-      "note": "🔹 Mantido no original (dublagem PT-BR)"
-    },
-    {
-      "quote": "Eu sou o justiceiro que vai acabar com você!",
-      "source": "Death Note",
-      "character": "Light Yagami",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Só mais um pedaço... Só mais um pedaço de chocolate...",
-      "source": "Fullmetal Alchemist: Brotherhood",
-      "character": "Gluttony",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Um alquimista deve pagar um preço equivalente ao que deseja obter.",
-      "source": "Fullmetal Alchemist: Brotherhood",
-      "character": "Lei da Troca Equivalente",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "NÃO PERCA SUA MÃE!",
-      "source": "Demon Slayer",
-      "character": "Tanjiro Kamado",
-      "note": "🔹 Legendas PT-BR (cena icônica)"
-    },
-    {
-      "quote": "Plus Ultra!",
-      "source": "My Hero Academia",
-      "character": "All Might",
-      "note": "🔹 Mantido no original (dublagem PT-BR)"
-    },
-    {
-      "quote": "Você já pensou em morrer?",
-      "source": "Tokyo Revengers",
-      "character": "Hanagaki Takemichi",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "O mundo é cruel, mas também é lindo.",
-      "source": "Attack on Titan",
-      "character": "Mikasa Ackerman",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "SORRISO!",
-      "source": "One Piece",
-      "character": "Doflamingo",
-      "note": "🔹 Dublagem PT-BR (cena do julgamento)"
-    },
-    {
-      "quote": "Nada acontece até você agir.",
-      "source": "Cowboy Bebop",
-      "character": "Spike Spiegel",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Você está subestimando os humanos, cara feia!",
-      "source": "Jujutsu Kaisen",
-      "character": "Yuji Itadori",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Eu sou o melhor!",
-      "source": "Haikyuu!!",
-      "character": "Hinata Shoyo",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "O inferno é um lugar na Terra.",
-      "source": "Chainsaw Man",
-      "character": "Makima",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Você é o meu melhor amigo, meu rival e meu objetivo!",
-      "source": "Naruto Shippuden",
-      "character": "Naruto Uzumaki",
-      "note": "🔹 Dublagem PT-BR (para Sasuke)"
-    },
-    {
-      "quote": "O poder do amor é uma coisa terrível, Sanji.",
-      "source": "One Piece",
-      "character": "Ivankov",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Você não é especial só porque sofreu.",
-      "source": "Neon Genesis Evangelion",
-      "character": "Asuka Langley",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "O verdadeiro inferno são os outros.",
-      "source": "Berserk",
-      "character": "Guts",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Eu quero viver!",
-      "source": "One Piece",
-      "character": "Nico Robin",
-      "note": "🔹 Dublagem PT-BR (cena emocionante em Enies Lobby)"
-    },
-    {
-      "quote": "Você é fraco. Porque você não tem ódio.",
-      "source": "Naruto",
-      "character": "Sasuke Uchiha",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "O mundo não é perfeito, mas está aqui.",
-      "source": "Steins;Gate",
-      "character": "Okabe Rintarou",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "Se você tem tempo para pensar em uma bela morte, por que não vive belamente até o fim?",
-      "source": "Gintama",
-      "character": "Gintoki Sakata",
-      "note": "🔹 Legendas PT-BR"
-    },
-    {
-      "quote": "O futuro é algo que você cria com suas próprias mãos.",
-      "source": "Boruto",
-      "character": "Naruto Uzumaki",
-      "note": "🔹 Dublagem PT-BR"
-    },
-    {
-      "quote": "Nunca desista! Nunca se renda!",
-      "source": "Hunter x Hunter",
-      "character": "Gon Freecss",
-      "note": "🔹 Dublagem PT-BR"
-    }
-  ]
+  "Que a Força esteja com você. - Obi-Wan Kenobi - Star Wars",
+  "Eu sou seu pai. - Darth Vader - Star Wars: Episódio V - O Império Contra-Ataca",
+  "Inverno está chegando. - Casa Stark - Game of Thrones",
+  "Você não sabe de nada, Jon Snow. - Ygritte - Game of Thrones",
+  "Com grandes poderes vêm grandes responsabilidades. - Tio Ben - Homem-Aranha (Spider-Man)",
+  "Eu sou o Batman. - Batman - Batman",
+  "Até o infinito e além! - Buzz Lightyear - Toy Story",
+  "Vivemos em uma sociedade. - Arthur Fleck (Coringa) - Coringa (Joker)",
+  "Não é a capa que faz o herói. - Hulk - O Incrível Hulk",
+  "Elemental, meu caro Watson. - Sherlock Holmes - Sherlock Holmes",
+  "A vida é como uma caixa de bombons... você nunca sabe o que vai encontrar. - Forrest Gump - Forrest Gump: O Contador de Histórias",
+  "O que fazemos em vida, ecoa na eternidade. - Maximus Decimus Meridius - Gladiador",
+  "A única coisa que se interpondo entre você e seu sonho é a história de merda que você continua contando a si mesmo que você não pode realizá-lo. - Jordan Belfort - O Lobo de Wall Street",
+  "Sempre. - Severus Snape - Harry Potter e as Relíquias da Morte - Parte 2",
+  "Get over here! - Scorpion - Mortal Kombat (jogo)",
+  "It's dangerous to go alone! Take this. - Old Man - The Legend of Zelda (jogo)",
+  "War. War never changes. - Narrador - Fallout (jogo)",
+  "É perigoso ir sozinho! Leve isto. - Velho Sábio - The Legend of Zelda",
+  "Guerra... A guerra nunca muda. - Narrador - Fallout",
+  "Get over here! - Scorpion - Mortal Kombat",
+  "Você acorda finalmente. - Ralof - The Elder Scrolls V: Skyrim",
+  "Ouça! Ei, ouça! - Navi - The Legend of Zelda: Ocarina of Time",
+  "Eu era um aventureiro como você, até levar uma flechada no joelho. - Guarda de Skyrim - The Elder Scrolls V: Skyrim",
+  "O vento está uivando. - Geralt de Rívia - The Witcher 3: Wild Hunt",
+  "Você se esquece de mil coisas todo dia. Quer garantir que isso seja uma delas? - Michael De Santa - Grand Theft Auto V",
+  "Preciso de uma arma. - Master Chief - Halo 2",
+  "O bolo é uma mentira. - GLaDOS - Portal",
+  "Acorde, Samurai. Temos uma cidade para queimar. - Johnny Silverhand - Cyberpunk 2077",
+  "Você morreu. - Narrador - Dark Souls",
+  "Louvado seja o Sol! - Solaire de Astora - Dark Souls",
+  "Would you kindly? - Andrew Ryan - BioShock",
+  "Demacia! - Garen - League of Legends",
+  "Winter is coming. - Casa Stark - Game of Thrones",
+  "Você não sabe de nada, Jon Snow. - Ygritte - Game of Thrones",
+  "Nem todos os homens foram feitos para se ajoelhar. - Daenerys Targaryen - Game of Thrones",
+  "Hold the door! - Hodor - Game of Thrones",
+  "Dracarys. - Daenerys Targaryen - Game of Thrones",
+  "Eu sou aquele que bate na porta. - Walter White - Breaking Bad",
+  "Say my name. - Walter White - Breaking Bad",
+  "I am the danger! - Walter White - Breaking Bad",
+  "Feliz aniversário, filho da puta. - Jim Hopper - Stranger Things",
+  "Amigos não mentem. - Eleven - Stranger Things",
+  "Isso é uma canção de amor? - Daryl Dixon - The Walking Dead",
+  "Não olhe para os zumbis, Carl! - Rick Grimes - The Walking Dead",
+  "How you doin'? - Joey Tribbiani - Friends",
+  "Nós estávamos em uma pausa! - Ross Geller - Friends",
+  "Bazinga! - Sheldon Cooper - The Big Bang Theory",
+  "A vingança nunca é plena, mata a alma e a envenena. - Seu Madruga - Chaves",
+  "Foi sem querer querendo. - Chaves - Chaves",
+  "Tá certo, tá certo, tá certo... - Bruxa do 71 - Chaves",
+  "Pode crer! - Chris Rock - Todo Mundo Odeia o Chris",
+  "Eu sou a Lenda Viva. - Dwight Schrute - The Office (US)",
+  "That's what she said! - Michael Scott - The Office (US)",
+  "Eu sou inevitável. - Loki - Loki (série)",
+  "Glorioso propósito. - Loki - Loki (série)",
+  "Wubba lubba dub dub! - Rick Sanchez - Rick and Morty",
+  "Corre, Forrest! Corre! - Jenny Curran - Forrest Gump",
+  "A vida é como uma caixa de chocolates... - Forrest Gump - Forrest Gump",
+  "Elementar, meu caro Watson. - Sherlock Holmes - Sherlock Holmes",
+  "Você falhou com esta cidade. - Oliver Queen - Arrow",
+  "Eu sou o demônio que vem para coletar. - Crowley - Supernatural",
+  "Carry on, my wayward son. - Sam e Dean Winchester - Supernatural",
+  "Que a Força esteja com você. - Obi-Wan Kenobi - Star Wars",
+  "Eu sou seu pai. - Darth Vader - Star Wars: O Império Contra-Ataca",
+  "Elementar, meu caro Watson. - Sherlock Holmes - Sherlock Holmes",
+  "A vida é como uma caixa de chocolates... - Forrest Gump - Forrest Gump",
+  "Corre, Forrest! Corre! - Jenny Curran - Forrest Gump",
+  "Meu precioso. - Gollum - O Senhor dos Anéis",
+  "Um anel para governar a todos. - Sauron (voz) - O Senhor dos Anéis",
+  "Você não pode passar! - Gandalf - O Senhor dos Anéis",
+  "Eu vou te fazer uma oferta que você não poderá recusar. - Don Corleone - O Poderoso Chefão",
+  "Keep your friends close, but your enemies closer. - Michael Corleone - O Poderoso Chefão II",
+  "Aqui estou eu, de volta ao começo. - Neo - Matrix",
+  "Há uma diferença entre saber o caminho e percorrer o caminho. - Morpheus - Matrix",
+  "Por que você veio? - Porque você me chamou. - Sam e Molly - Ghost - Do Outro Lado da Vida",
+  "Mostrem-me o dinheiro! - Rod Tidwell - Jerry Maguire",
+  "Você me completa. - Jerry Maguire - Jerry Maguire",
+  "Eu veio mortos-vivos. - Jules Winnfield - Pulp Fiction",
+  "Diga 'what' mais uma vez! - Jules Winnfield - Pulp Fiction",
+  "Eu sou o Rei do Mundo! - Jack Dawson - Titanic",
+  "Nunca me solte. - Rose - Titanic",
+  "Houston, temos um problema. - Jim Lovell - Apollo 13",
+  "Você está falando comigo? - Travis Bickle - Taxi Driver",
+  "Toto, acho que não estamos mais no Kansas. - Dorothy - O Mágico de Oz",
+  "E.T. telefonar casa. - E.T. - E.T. - O Extraterrestre",
+  "Just keep swimming. - Dory - Procurando Nemo",
+  "To infinity and beyond! - Buzz Lightyear - Toy Story",
+  "Nunca subestime o coração de um campeão. - Rudy Ruettiger - Rudy",
+  "Carpe diem. Aproveitem o dia. - John Keating - Sociedade dos Poetas Mortos",
+  "Hakuna Matata! - Timão e Pumba - O Rei Leão",
+  "Lembre-se: quem você é. - Mufasa - O Rei Leão",
+  "Você é um feiticeiro, Harry. - Rúbeo Hagrid - Harry Potter e a Pedra Filosofal",
+  "Eu vou ser o Rei dos Piratas! - Monkey D. Luffy - One Piece",
+  "Se você não compartilhar a felicidade de alguém, nunca entenderá a verdadeira tristeza. - Itachi Uchiha - Naruto Shippuden",
+  "Tatakae! Tatakae! - Eren Yeager - Attack on Titan",
+  "O poder do amigo imaginário é infinito! - Goku - Dragon Ball Z",
+  "Kamehameha! - Goku - Dragon Ball Z",
+  "Você é bem fraquinho, hein? - Beerus - Dragon Ball Super",
+  "Bankai! - Ichigo Kurosaki - Bleach",
+  "Eu sou o justiceiro que vai acabar com você! - Light Yagami - Death Note",
+  "Só mais um pedaço... Só mais um pedaço de chocolate... - Gluttony - Fullmetal Alchemist: Brotherhood",
+  "Um alquimista deve pagar um preço equivalente ao que deseja obter. - Lei da Troca Equivalente - Fullmetal Alchemist: Brotherhood",
+  "NÃO PERCA SUA MÃE! - Tanjiro Kamado - Demon Slayer",
+  "Plus Ultra! - All Might - My Hero Academia",
+  "Você já pensou em morrer? - Hanagaki Takemichi - Tokyo Revengers",
+  "O mundo é cruel, mas também é lindo. - Mikasa Ackerman - Attack on Titan",
+  "SORRISO! - Doflamingo - One Piece",
+  "Nada acontece até você agir. - Spike Spiegel - Cowboy Bebop",
+  "Você está subestimando os humanos, cara feia! - Yuji Itadori - Jujutsu Kaisen",
+  "Eu sou o melhor! - Hinata Shoyo - Haikyuu!!",
+  "O inferno é um lugar na Terra. - Makima - Chainsaw Man",
+  "Você é o meu melhor amigo, meu rival e meu objetivo! - Naruto Uzumaki - Naruto Shippuden",
+  "O poder do amor é uma coisa terrível, Sanji. - Ivankov - One Piece",
+  "Você não é especial só porque sofreu. - Asuka Langley - Neon Genesis Evangelion",
+  "O verdadeiro inferno são os outros. - Guts - Berserk",
+  "Eu quero viver! - Nico Robin - One Piece",
+  "Você é fraco. Porque você não tem ódio. - Sasuke Uchiha - Naruto",
+  "O mundo não é perfeito, mas está aqui. - Okabe Rintarou - Steins;Gate",
+  "Se você tem tempo para pensar em uma bela morte, por que não vive belamente até o fim? - Gintoki Sakata - Gintama",
+  "O futuro é algo que você cria com suas próprias mãos. - Naruto Uzumaki - Boruto",
+  "Nunca desista! Nunca se renda! - Gon Freecss - Hunter x Hunter"
+]

@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      IA_ATIVADA: "True" # Ativa ou desativa a IA (pode ser "True" ou "False")
+      PERCENTUAL_IA: "25" # Define o percentual de uso da IA (exemplo: 25% significa que 25% das frases serão geradas pela IA)
+      GEMINI_API_KEY: "SUA-CHAVE-AQUI" # Chave da API do Gemini
+
+      REDIS_HOST: redis # O nome do serviço 'redis' no Docker Compose
+      REDIS_PORT: 6379
+      REDIS_DB: 0
+    depends_on:
+      - redis
+    volumes:
+      - ./data:/app/data
+    restart: on-failure
+
+  redis:
+    image: "redis:7-alpine"
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: on-failure
+
+volumes:
+  redis_data:

@@ -206,6 +206,14 @@ h1 {
     right: -20px;
 }
 
+.phrase-text .ia-tag {
+    font-size: 0.5em;
+    color: #888;
+    margin-left: 8px;
+    font-style: italic;
+    white-space: nowrap;
+}
+
 .loading {
     color: #666;
     font-style: normal;
@@ -237,23 +245,23 @@ h1 {
         padding: 20px;
         margin: 10px;
     }
-    
+
     h1 {
         font-size: 2rem;
     }
-    
+
     .buttons-grid {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(5, 1fr);
         max-width: 300px;
     }
-    
+
     .phrase-button {
         padding: 18px;
         font-size: 0.9rem;
         min-height: 70px;
     }
-    
+
     .phrase-text {
         font-size: 1.1rem;
     }

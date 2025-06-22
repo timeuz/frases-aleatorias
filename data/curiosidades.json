@@ -1,227 +1,77 @@
 [
-    {
-      "fact": "Um raio é cinco vezes mais quente que a superfície do sol."
-    },
-    {
-      "fact": "Existem mais estrelas no universo do que grãos de areia em todas as praias da Terra."
-    },
-    {
-      "fact": "O DNA de um ser humano adulto, se esticado, pode ir e voltar da Lua 6.000 vezes."
-    },
-    {
-      "fact": "Mel nunca estraga. Arqueólogos já encontraram potes de mel em tumbas egípcias com milhares de anos e ainda comestíveis."
-    },
-    {
-      "fact": "A luz do sol leva cerca de 8 minutos e 20 segundos para chegar à Terra."
-    },
-    {
-      "fact": "Se o Sol fosse do tamanho de uma bola de boliche, a Terra seria do tamanho de um grão de areia."
-    },
-    {
-      "fact": "O som não pode viajar no vácuo do espaço."
-    },
-    {
-      "fact": "Existem mais árvores na Terra do que estrelas na Via Láctea."
-    },
-    {
-      "fact": "O cheiro característico da chuva é chamado de petrichor."
-    },
-    {
-      "fact": "A eletricidade estática que você acumula pode chegar a 3.000 volts."
-    },
-    {
-      "fact": "O coração da baleia-azul é tão grande que um humano poderia nadar em suas artérias."
-    },
-    {
-      "fact": "Os ursos-d'água (tardígrados) podem sobreviver no espaço sideral sem proteção."
-    },
-    {
-      "fact": "Uma colher de chá de uma estrela de nêutrons pesaria 6 bilhões de toneladas."
-    },
-    {
-      "fact": "O cheiro do espaço é semelhante ao de metal queimado ou carne grelhada (segundo astronautas)."
-    },
-    {
-      "fact": "O vírus da gripe de 1918 ainda está ativo hoje, mas enfraquecido."
-    },
-    {
-      "fact": "O cérebro humano consome cerca de 20% da energia do corpo, mas representa apenas 2% do peso."
-    },
-    {
-      "fact": "As formigas não têm pulmões: respiram por pequenos orifícios chamados espiráculos."
-    },
-    {
-      "fact": "O material mais resistente do universo conhecido é a 'crosta de estrelas de nêutrons'."
-    },
-    {
-      "fact": "O tempo passa mais devagar perto de um buraco negro devido à relatividade geral."
-    },
-    {
-      "fact": "Os humanos compartilham 50% do DNA com as bananas."
-    },
-    {
-      "fact": "O maior ser vivo da Terra é um fungo subterrâneo no Oregon (EUA), com 2.400 anos e 9 km²."
-    },
-    {
-      "fact": "O som do Big Bang ainda ecoa no universo como radiação cósmica de fundo."
-    },
-    {
-      "fact": "As lágrimas têm estruturas químicas diferentes dependendo se são de alegria, tristeza ou irritação."
-    },
-    {
-      "fact": "O Sol perde cerca de 4 milhões de toneladas de massa por segundo devido à fusão nuclear."
-    },
-    {
-      "fact": "Os polvos têm três corações e sangue azul (por causa da hemocianina)."
-    },
-    {
-      "fact": "Se você gritar no espaço, ninguém te ouvirá, mas também não há ar para seus pulmões funcionarem."
-    },
-    {
-      "fact": "A pegada de carbono de uma única pesquisa no Google equivale a 0,2g de CO₂."
-    },
-    {
-      "fact": "O gelo quente existe: é chamado de 'gelo superiônico' e se forma sob pressão extrema."
-    },
-    {
-      "fact": "Os ímãs de neodímio podem ser tão fortes que esmagam ossos se grudarem em sua pele."
-    },
-    {
-      "fact": "A cada segundo, 16 milhões de toneladas de água evaporam do oceano e voltam como chuva."
-    },
-    {
-      "fact": "A borboleta-monarca pode viajar até 4.800 km durante sua migração."
-    },
-    {
-      "fact": "O primeiro e-mail foi enviado em 1971 por Ray Tomlinson, que também inventou o uso do '@' em endereços eletrônicos."
-    },
-    {
-      "fact": "O primeiro vídeo do YouTube foi upload em 23 de abril de 2005 e mostra um dos cofundadores no zoológico ('Me at the zoo')."
-    },
-    {
-      "fact": "A senha do computador que guiou o pouso na Lua em 1969 era '1202'."
-    },
-    {
-      "fact": "O primeiro domínio registrado na internet foi 'symbolics.com' em 15 de março de 1985."
-    },
-    {
-      "fact": "A barra de espaço é a tecla mais usada no teclado (cerca de 90% dos digitações)."
-    },
-    {
-      "fact": "O celular Motorola DynaTAC 8000X (1983) custava US$ 3.995 e durava 30 minutos de carga."
-    },
-    {
-      "fact": "O primeiro SMS da história foi enviado em 1992 e dizia: 'Merry Christmas'."
-    },
-    {
-      "fact": "A palavra 'robot' vem do tcheco 'robota', que significa 'trabalho forçado' (cunhada em 1920)."
-    },
-    {
-      "fact": "O disquete (floppy disk) ainda é o ícone de 'salvar' em muitos programas, mesmo obsoleto."
-    },
-    {
-      "fact": "O primeiro cartão de crédito foi lançado em 1950 pelo Diners Club e era feito de papelão."
-    },
-    {
-      "fact": "O botão 'Ctrl+Alt+Del' foi criado por David Bradley (IBM) para reiniciar o PC sem apagar a memória."
-    },
-    {
-      "fact": "O QWERTY foi criado para diminuir a velocidade de digitação e evitar travamentos em máquinas de escrever (1870)."
-    },
-    {
-      "fact": "A Apple vendeu seu primeiro computador (Apple I) em 1976 por US$ 666,66."
-    },
-    {
-      "fact": "O primeiro vírus de computador ('Creeper', 1971) exibia a mensagem: 'I'm the creeper, catch me if you can!'."
-    },
-    {
-      "fact": "O Pentágono (EUA) tem mais banheiros do que o necessário devido às leis de segregação racial na época de sua construção (1943)."
-    },
-    {
-      "fact": "O avião de Amelia Earhart, que desapareceu em 1937, tinha um kit de sobrevivência com... molho de pimenta."
-    },
-    {
-      "fact": "O primeiro tweet foi postado por Jack Dorsey em 21 de março de 2006: 'just setting up my twttr'."
-    },
-    {
-      "fact": "O código-fonte do Apollo 11 (que levou o homem à Lua) tinha menos linhas que um app de celular moderno."
-    },
-    {
-      "fact": "A palavra 'Wi-Fi' não significa nada: foi escolhida por soar bem (era uma marca comercial)."
-    },
-    {
-      "fact": "O primeiro videogame da história ('Tennis for Two', 1958) não tinha gráficos, apenas linhas em um osciloscópio."
-    },
-    {
-      "fact": "O som de 'ligação ocupada' nos EUA é exatamente o mesmo desde 1908."
-    },
-    {
-      "fact": "A primeira câmera digital (1975) da Kodak levou 23 segundos para salvar uma foto em preto e branco."
-    },
-    {
-      "fact": "O 'Piano para Gatos' (1890) foi inventado para ensinar gatos a tocar música. Spoiler: não deu certo."
-    },
-    {
-      "fact": "Em 1894, o New York Times previu que as ruas ficariam cobertas por 3 metros de estrume de cavalo até 1950. Os carros resolveram o problema."
-    },
-    {
-      "fact": "O GPS corrige erros de tempo causados pela relatividade geral (satélites adiantam 38 microssegundos/dia devido à gravidade da Terra)."
-    },
-    {
-      "fact": "A máquina de escrever 'Blickensderfer' (1892) tinha um teclado com apenas 3 linhas para 'economizar movimento'. Foi um fracasso."
-    },
-    {
-      "fact": "O inventor do rádio, Nikola Tesla, uma vez financiou um projeto para fotografar... pensamentos."
-    },
-    {
-      "fact": "Em 1962, os EUA detonaram uma bomba nuclear no espaço (Operação Starfish). Resultado: um cinturão de radiação artificial que durou anos."
-    },
-    {
-      "fact": "O 'Isolador de Cabeça' (1925) era um capacete de metal para bloquear distrações. Funcionava tão bem que isolava até o usuário da realidade."
-    },
-    {
-      "fact": "O Titanic tinha apenas 20 botes salva-vidas (para 1.178 pessoas) porque a lei da época era baseada no peso do navio, não no número de passageiros."
-    },
-    {
-      "fact": "As lâmpadas LED existem desde 1962, mas só se popularizaram nos anos 2000 porque ninguém sabia como produzir luz branca com elas antes."
-    },
-    {
-      "fact": "O 'Forno de Micro-ondas' foi inventado por acidente em 1945, quando um radar derreteu uma barra de chocolate no bolso de um engenheiro."
-    },
-    {
-      "fact": "A União Soviética tentou criar um 'Exército de Macacos Soldados' nos anos 1920. Os macacos se recusaram a obedecer ordens."
-    },
-    {
-      "fact": "O primeiro protótipo de avião da NASA (M2-F1) foi rebocado por um carro esportivo Chevrolet em 1963 para testes."
-    },
-    {
-      "fact": "O 'Chapéu de Raio-X' (1930) prometia ver através de roupas, mas só causava queimaduras e cegueira."
-    },
-    {
-      "fact": "A bateria de Bagdá (200 a.C.) é um artefato que pode ter sido uma pilha primitiva... ou só um pote para guardar pergaminhos. Ninguém sabe."
-    },
-    {
-      "fact": "Em 1999, a NASA perdeu uma sonda em Marte porque uma equipe usava unidades métricas e outra, imperiais."
-    },
-    {
-      "fact": "O 'Cinto de Vibração para Emagrecer' (1900) prometia eliminar gordura com choques elétricos. Só eliminava dinheiro."
-    },
-    {
-      "fact": "O primeiro vírus de computador para celular (2004) só infectava... Nokia Symbian e enviava SMS para números premium."
-    },
-    {
-      "fact": "O 'Carro Voador' de Henry Ford (1926) era um avião sem asas chamado 'Sky Flivver'. Matou dois pilotos e foi abandonado."
-    },
-    {
-      "fact": "A fibra óptica (usada na internet) funciona porque a luz reflete internamente no vidro como um peixe num aquário redondo."
-    },
-    {
-      "fact": "O 'Projeto A119' (1950) dos EUA planejava detonar uma bomba nuclear na Lua para 'mostrar poder' durante a Guerra Fria."
-    },
-    {
-      "fact": "O 'Relógio de Comida' (1800) era um despertador que jogava bacon no seu rosto para acordar. Funcionava... mas era nojento."
-    },
-    {
-      "fact": "O som do 'THX' nos cinemas foi criado em um banheiro acusticamente tratado, com um motor de Porsche."
-    }
-  ]
+  "Um raio é cinco vezes mais quente que a superfície do sol.",
+  "Existem mais estrelas no universo do que grãos de areia em todas as praias da Terra.",
+  "O DNA de um ser humano adulto, se esticado, pode ir e voltar da Lua 6.000 vezes.",
+  "Mel nunca estraga. Arqueólogos já encontraram potes de mel em tumbas egípcias com milhares de anos e ainda comestíveis.",
+  "A luz do sol leva cerca de 8 minutos e 20 segundos para chegar à Terra.",
+  "Se o Sol fosse do tamanho de uma bola de boliche, a Terra seria do tamanho de um grão de areia.",
+  "O som não pode viajar no vácuo do espaço.",
+  "Existem mais árvores na Terra do que estrelas na Via Láctea.",
+  "O cheiro característico da chuva é chamado de petrichor.",
+  "A eletricidade estática que você acumula pode chegar a 3.000 volts.",
+  "O coração da baleia-azul é tão grande que um humano poderia nadar em suas artérias.",
+  "Os ursos-d'água (tardígrados) podem sobreviver no espaço sideral sem proteção.",
+  "Uma colher de chá de uma estrela de nêutrons pesaria 6 bilhões de toneladas.",
+  "O cheiro do espaço é semelhante ao de metal queimado ou carne grelhada (segundo astronautas).",
+  "O vírus da gripe de 1918 ainda está ativo hoje, mas enfraquecido.",
+  "O cérebro humano consome cerca de 20% da energia do corpo, mas representa apenas 2% do peso.",
+  "As formigas não têm pulmões: respiram por pequenos orifícios chamados espiráculos.",
+  "O material mais resistente do universo conhecido é a 'crosta de estrelas de nêutrons'.",
+  "O tempo passa mais devagar perto de um buraco negro devido à relatividade geral.",
+  "Os humanos compartilham 50% do DNA com as bananas.",
+  "O maior ser vivo da Terra é um fungo subterrâneo no Oregon (EUA), com 2.400 anos e 9 km².",
+  "O som do Big Bang ainda ecoa no universo como radiação cósmica de fundo.",
+  "As lágrimas têm estruturas químicas diferentes dependendo se são de alegria, tristeza ou irritação.",
+  "O Sol perde cerca de 4 milhões de toneladas de massa por segundo devido à fusão nuclear.",
+  "Os polvos têm três corações e sangue azul (por causa da hemocianina).",
+  "Se você gritar no espaço, ninguém te ouvirá, mas também não há ar para seus pulmões funcionarem.",
+  "A pegada de carbono de uma única pesquisa no Google equivale a 0,2g de CO₂.",
+  "O gelo quente existe: é chamado de 'gelo superiônico' e se forma sob pressão extrema.",
+  "Os ímãs de neodímio podem ser tão fortes que esmagam ossos se grudarem em sua pele.",
+  "A cada segundo, 16 milhões de toneladas de água evaporam do oceano e voltam como chuva.",
+  "A borboleta-monarca pode viajar até 4.800 km durante sua migração.",
+  "O primeiro e-mail foi enviado em 1971 por Ray Tomlinson, que também inventou o uso do '@' em endereços eletrônicos.",
+  "O primeiro vídeo do YouTube foi upload em 23 de abril de 2005 e mostra um dos cofundadores no zoológico ('Me at the zoo').",
+  "A senha do computador que guiou o pouso na Lua em 1969 era '1202'.",
+  "O primeiro domínio registrado na internet foi 'symbolics.com' em 15 de março de 1985.",
+  "A barra de espaço é a tecla mais usada no teclado (cerca de 90% dos digitações).",
+  "O celular Motorola DynaTAC 8000X (1983) custava US$ 3.995 e durava 30 minutos de carga.",
+  "O primeiro SMS da história foi enviado em 1992 e dizia: 'Merry Christmas'.",
+  "A palavra 'robot' vem do tcheco 'robota', que significa 'trabalho forçado' (cunhada em 1920).",
+  "O disquete (floppy disk) ainda é o ícone de 'salvar' em muitos programas, mesmo obsoleto.",
+  "O primeiro cartão de crédito foi lançado em 1950 pelo Diners Club e era feito de papelão.",
+  "O botão 'Ctrl+Alt+Del' foi criado por David Bradley (IBM) para reiniciar o PC sem apagar a memória.",
+  "O QWERTY foi criado para diminuir a velocidade de digitação e evitar travamentos em máquinas de escrever (1870).",
+  "A Apple vendeu seu primeiro computador (Apple I) em 1976 por US$ 666,66.",
+  "O primeiro vírus de computador ('Creeper', 1971) exibia a mensagem: 'I'm the creeper, catch me if you can!'.",
+  "O Pentágono (EUA) tem mais banheiros do que o necessário devido às leis de segregação racial na época de sua construção (1943).",
+  "O avião de Amelia Earhart, que desapareceu em 1937, tinha um kit de sobrevivência com... molho de pimenta.",
+  "O primeiro tweet foi postado por Jack Dorsey em 21 de março de 2006: 'just setting up my twttr'.",
+  "O código-fonte do Apollo 11 (que levou o homem à Lua) tinha menos linhas que um app de celular moderno.",
+  "A palavra 'Wi-Fi' não significa nada: foi escolhida por soar bem (era uma marca comercial).",
+  "O primeiro videogame da história ('Tennis for Two', 1958) não tinha gráficos, apenas linhas em um osciloscópio.",
+  "O som de 'ligação ocupada' nos EUA é exatamente o mesmo desde 1908.",
+  "A primeira câmera digital (1975) da Kodak levou 23 segundos para salvar uma foto em preto e branco.",
+  "O 'Piano para Gatos' (1890) foi inventado para ensinar gatos a tocar música. Spoiler: não deu certo.",
+  "Em 1894, o New York Times previu que as ruas ficariam cobertas por 3 metros de estrume de cavalo até 1950. Os carros resolveram o problema.",
+  "O GPS corrige erros de tempo causados pela relatividade geral (satélites adiantam 38 microssegundos/dia devido à gravidade da Terra).",
+  "A máquina de escrever 'Blickensderfer' (1892) tinha um teclado com apenas 3 linhas para 'economizar movimento'. Foi um fracasso.",
+  "O inventor do rádio, Nikola Tesla, uma vez financiou um projeto para fotografar... pensamentos.",
+  "Em 1962, os EUA detonaram uma bomba nuclear no espaço (Operação Starfish). Resultado: um cinturão de radiação artificial que durou anos.",
+  "O 'Isolador de Cabeça' (1925) era um capacete de metal para bloquear distrações. Funcionava tão bem que isolava até o usuário da realidade.",
+  "O Titanic tinha apenas 20 botes salva-vidas (para 1.178 pessoas) porque a lei da época era baseada no peso do navio, não no número de passageiros.",
+  "As lâmpadas LED existem desde 1962, mas só se popularizaram nos anos 2000 porque ninguém sabia como produzir luz branca com elas antes.",
+  "O 'Forno de Micro-ondas' foi inventado por acidente em 1945, quando um radar derreteu uma barra de chocolate no bolso de um engenheiro.",
+  "A União Soviética tentou criar um 'Exército de Macacos Soldados' nos anos 1920. Os macacos se recusaram a obedecer ordens.",
+  "O primeiro protótipo de avião da NASA (M2-F1) foi rebocado por um carro esportivo Chevrolet em 1963 para testes.",
+  "O 'Chapéu de Raio-X' (1930) prometia ver através de roupas, mas só causava queimaduras e cegueira.",
+  "A bateria de Bagdá (200 a.C.) é um artefato que pode ter sido uma pilha primitiva... ou só um pote para guardar pergaminhos. Ninguém sabe.",
+  "Em 1999, a NASA perdeu uma sonda em Marte porque uma equipe usava unidades métricas e outra, imperiais.",
+  "O 'Cinto de Vibração para Emagrecer' (1900) prometia eliminar gordura com choques elétricos. Só eliminava dinheiro.",
+  "O primeiro vírus de computador para celular (2004) só infectava... Nokia Symbian e enviava SMS para números premium.",
+  "O 'Carro Voador' de Henry Ford (1926) era um avião sem asas chamado 'Sky Flivver'. Matou dois pilotos e foi abandonado.",
+  "A fibra óptica (usada na internet) funciona porque a luz reflete internamente no vidro como um peixe num aquário redondo.",
+  "O 'Projeto A119' (1950) dos EUA planejava detonar uma bomba nuclear na Lua para 'mostrar poder' durante a Guerra Fria.",
+  "O 'Relógio de Comida' (1800) era um despertador que jogava bacon no seu rosto para acordar. Funcionava... mas era nojento.",
+  "O som do 'THX' nos cinemas foi criado em um banheiro acusticamente tratado, com um motor de Porsche."
+]
